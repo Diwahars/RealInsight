@@ -1,0 +1,84 @@
+.navbar-inverse {
+    background: #104699;
+    border-color: #1EAD15;
+}
+.navbar-inverse .navbar-brand {
+    float: none;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    padding: 16px 0;
+}
+.navbar-header {
+    float: none;
+}
+body{
+	padding-top: 50px;
+}
+button.btn.btn-lg {
+    outline: none;
+    border: none;
+}
+.form-signin {
+  max-width: 382px;
+  padding: 15px;
+  margin: 0 auto;
+}
+h3.form-signin-heading {
+    text-align: center;
+    color: #F3AB4F;
+    font-size: 18px;
+    padding: 23px;
+    font-family: sans-serif;
+    border: 1px solid #F39898;
+    border-radius: 5px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="mobile"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+ul.social-links.text-center {
+    list-style: none;
+    display: inline;
+}
+li {
+    display: inherit;
+}
+.social-links a{
+  color: grey;
+  text-transform: none;
+  text-decoration: none;
+}
+.columns {
+    padding-bottom: 11px;
+}
+.fa-facebook-square:hover{
+  color: #28346D;
+}
+.fa-twitter-square:hover{
+  color: #428bca;
+}

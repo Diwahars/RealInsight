@@ -1,0 +1,41 @@
+@font-face{
+    font-family: opensans;
+    src: url(../fonts/opensans.ttf);
+}
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+a{
+  cursor: pointer;
+}
+.separator20{
+	padding: 20px;
+}
+.separator10{
+	padding: 10px;
+}
+.navbar-default {
+    font-family:opensans;
+    color: white;
+    background-image: -webkit-linear-gradient(top,#223846 0,#223846 100%);
+    background-image: -o-linear-gradient(bottom,#223846 0,#223846 100%);
+    background-image: -webkit-gradient(linear,left-top ,right-bottom ,from(#223846),to(#223846));
+    background-image: linear-gradient(to bottom,#223846 0,#223846 100%);
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 23px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+  background-color: #e7e7e7;
+  color: black;
+  box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
